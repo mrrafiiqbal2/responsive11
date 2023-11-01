@@ -1,0 +1,669 @@
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+.footer {
+    width: 100%;
+    padding: 0px;
+}
+ol, ul {
+    padding-left: 0px;
+}
+.copyrights {
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 16px;
+    color: red;
+    text-transform: uppercase;
+}
+
+.f-text {
+    padding: 20px 0px;
+    font-size: 16px;
+    color: black;
+    margin: 0px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin: 0px;
+    color: #3d2514;
+}
+.slider .item p {
+    font-size: xx-small;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 1.7em;
+    color: darkslateblues;
+}
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+  
+
+.header .top-menu {
+    width: 100%;
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+}
+  
+  .navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin: 0px;
+    padding: 12px 0px;
+    color: #3d2514;
+}
+
+.feature .card h5 {
+    margin: 0px;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+}
+.choose .title p {
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 1.7em;
+    color: red;
+}
+
+.choose-inner p {
+    font-size: x-small;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 1.7em;
+    color: black;
+}
+.slider .item p {
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 1.7em;
+    color: darkslateblues;
+}
+
+.slider {
+    width: 100%;
+    padding: 0px;
+}
+.number-counter {
+    width: 100%;
+    padding: 0px;
+}
+.rafi {
+    width: 100%;
+    padding: 40px 0px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+    background: #eee;
+    box-shadow: 10px 11px 12px #ccc;
+}
+.counter-box h1 {
+    font-size: 30px;
+    color: #08c;
+    font-weight: bold;
+}
+.counter-box .fa {
+    font-size: 50px;
+    color: #08c;
+}
+.contact-section .tittle h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 1.2em;
+    color: #3d5124;
+    letter-spacing: 1px;
+}
+.main-footer {
+    width: 100%;
+    padding: 0px;
+    background: #eee;
+}
+.f-text {
+    font-size: 16px;
+    color: black;
+    margin: 0px;
+}
+.footer {
+    width: 100%;
+    padding: 20px 0px;
+}
+
+.main-footer .f-logo {
+    padding: 20px 0px;
+    margin: 0px;
+}
+.copyrights {
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 16px;
+    color: red;
+    text-transform: uppercase;
+}
+.copyrights {
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 16px;
+    color: red;
+    text-transform: uppercase;
+}
+
+
+
+}
+
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin: 0px;
+    color: #3d2514;
+    padding: 10px 0px;
+}
+.main-menu .text-right {
+    font-family: 'Montserrat', sans-serif;
+    text-align: right;
+    font-size: x-small;
+    font-weight: bold;
+    margin: 0px;
+}
+  .banner {
+    width: 100%;
+    padding: 0px;
+}
+.inner-banner h5 span {
+    font-size: small;
+    margin: 0px;
+    padding: 0px;
+    border: 2px solid dashed #3d2514;
+    display: inline-block;
+}
+.inner-banner h1 {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.2em;
+    color: #3d2514;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: 5px 4px #fff;
+}
+.feature {
+    margin: 0px;
+    padding: 0px;
+}
+.feature .card h5 {
+    margin: 0px;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+}
+.choose .title p {
+    font-size: xx-small;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 1.7em;
+    color: red;
+}
+.choose-inner p {
+    font-size: xx-small;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 1.7em;
+    color: black;
+}
+.slider {
+    width: 100%;
+    padding: 0px;
+}
+.choose {
+    width: 100%;
+    padding: 0px;
+}
+.slider .item p {
+    font-size: xx-small;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 1.7em;
+    color: darkslateblues;
+}
+.slider .item h2 {
+  padding: 10px 0px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.2em;
+    color: #3d2514;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+.rafi {
+    width: 100%;
+    padding: 20px 0px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    background: #eee;
+    box-shadow: 10px 11px 12px #ccc;
+}
+.number-counter {
+    width: 100%;
+    padding: 0px;
+}
+.counter-box h1 {
+    font-size: 30px;
+    color: #08c;
+    }
+
+    .contact-section {
+    width: 100%;
+    padding: 20px 0px;
+    background: url(../images/bg2.png) center top no-repeat;
+    background-size: cover;
+}
+.contact-section .tittle h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 1.2em;
+    color: #3d5124;
+    letter-spacing: 1px;
+}
+
+
+.contact-section .tittle {
+    width: 100%;
+    padding: 20px 0px;
+    text-align: center;
+}
+.contact-section .main-form .btn-danger {
+    font-family: 'Alfa Slab One', cursive;
+    display: block;
+    padding: 10px 0px;
+    border: 1px solid #bf2222;
+    color: white;
+    background: #bf2222;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 1s;
+}
+.contact-section .main-form {
+    width: 100%;
+    padding: 0px;
+}
+.footer {
+    width: 100%;
+    padding: 0px;
+}
+.f-text {
+    font-size: 12px;
+    color: black;
+    margin: 0px;
+}
+.main-footer {
+    width: 100%;
+    padding: 30px 0px;
+    background: #eee;
+}
+.info {
+    padding: 10px 0px;
+    display: block;
+}
+
+
+.copyrights {
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 16px;
+    color: red;
+    text-transform: uppercase;
+}
+
+
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 279px) and (max-width: 319px) {
+
+
+.info {
+    padding: 10px 0px;
+    display: block;
+}
+.main-menu .text-right {
+    font-family: 'Montserrat', sans-serif;
+    text-align: right;
+    font-size: x-small;
+    font-weight: bold;
+    margin: 0px;
+}
+.header .top-menu {
+    width: 100%;
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+}
+p {
+    font-size: small;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-size: small;
+    text-transform: uppercase;
+    text-align: justify;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin: 0px;
+    color: #3d2514;
+}
+
+.banner {
+    width: 100%;
+    padding: 0px;
+}
+
+
+.inner-banner {
+    width: 100%;
+    margin: 0px;
+}
+.inner-banner h1 {
+  text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    line-height: 1.2em;
+    color: #3d2514;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: 5px 4px #fff;
+}
+.inner-banner h3 {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.2em;
+    color: #3d2514;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+  text-align: center;
+}
+
+.feature {
+    margin: 0px;
+    padding: 0px 0px;
+}
+.feature .card h5 {
+    margin: 0px;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: x-large;
+    font-weight: 300;
+}
+.feature .card h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: smaller;
+    font-weight: 400;
+    line-height: 1.2em;
+    color: white;
+    letter-spacing: 1px;
+}
+.choose .title h3 span {
+    padding: 10px 20px;
+    margin: 0px;
+    display: inline-block;
+    }
+
+    .choose .title h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: x-large;
+    font-weight: 400;
+    line-height: 1.2em;
+    color: #3d2514;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.choose .title p {
+    font-size: x-small;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 1.7em;
+    color: red;
+}
+
+.choose-inner h4 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: initial;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1.2em;
+    color: red;
+}
+.choose-inner p {
+    font-size: xx-small;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 1.7em;
+    color: black;
+}
+.choose-inner .btn-danger {
+    display: inline-block;
+    padding: 0px;
+    font-size: 20px;
+    font-family: 'Alfa Slab One', cursive;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 300;
+    border-radius: 0px;
+    border: 1px solid red;
+    color: #fff;
+    background: #bf2222;
+    transition: 1s;
+}
+.slider {
+    width: 100%;
+    padding: 0px;
+}
+.slider .owl-carousel {
+    width: 100%;
+    padding: 0px;
+    box-shadow: 0px 6px 10px #fff;
+}
+.slider .item h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    line-height: 1.2em;
+    color: #3d2514;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0px;
+}
+.slider .item p {
+    font-size: xx-small;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 1.7em;
+    color: darkslateblues;
+}
+.rafi {
+    width: 100%;
+    padding: 20px 0px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    font-size: medium;
+    font-weight: bold;
+    color: black;
+    background: #eee;
+    box-shadow: 10px 11px 12px #ccc;
+}
+.counter-box h1 {
+    font-size: x-large;
+    color: #08c;
+    font-weight: bold;
+}
+.counter-box .fa {
+    font-size: xxx-large;
+    color: #08c;
+}
+.counter-box {
+    width: 100%;
+    padding: 30px 0px;
+    border: 2px solid #08c;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 10px 11px 12px black;
+    transition: 1s;
+}
+.number-counter {
+    width: 100%;
+    padding: 20px 0px;
+}
+.contact-section .tittle h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 1.2em;
+    color: #3d5124;
+    letter-spacing: 1px;
+}
+.contact-section .tittle {
+    width: 100%;
+    padding: 20px 0px;
+    text-align: center;
+}
+.contact-section {
+    width: 100%;
+    padding: 20px 0px;
+    background: url(../images/bg2.png) center top no-repeat;
+    background-size: cover;
+}
+.contact-section .main-form .btn-danger {
+    font-size: x-small;
+    font-family: 'Alfa Slab One', cursive;
+    display: block;
+    padding: 10px;
+    border: 1px solid #bf2222;
+    color: white;
+    background: #bf2222;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 1s;
+}
+.footer {
+    width: 100%;
+    padding: 0px 0px;
+}
+.f-text {
+    font-size: xx-small;
+    color: black;
+    margin: 0px;
+}
+dl, ol, ul {
+    padding: 10px 0px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.copyrights {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: small;
+    color: red;
+    text-transform: uppercase;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+
+
+
+}
